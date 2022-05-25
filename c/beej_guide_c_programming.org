@@ -24,6 +24,8 @@ printf("Hello, World!\n");
 #+end_src
 
 compile hello.c and output executable as hello
+#+being_src bash
 gcc -o hello hello.c
+#+end_src
 
 
