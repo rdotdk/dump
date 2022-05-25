@@ -58,6 +58,7 @@ if the source is broken into multiple files you can compile by putting them all 
 gcc -o awesomegame ui.c characters.c npc.c items.c
 #+end_src
 ** 2.7 C Versions
+
 |Version | Description|
 |--------|-------------|
 | K&R C  | 1978 Named after Brain Kernighan and Dennis Ritchie.|
@@ -67,3 +68,26 @@ gcc -o awesomegame ui.c characters.c npc.c items.c
 |C11| unicode support and multi threading|
 |C17, C18| Bugfix update to C11. C17 is the official name, but it was delayed until 2018|
 |C2x| coming next. C21|
+
+Force GCC to use one of these standards with -std= command line argument
+#+begin_src bash
+gcc -std=c11 -pedantic foo.c
+#+end_src
+
+Compile programs for C2x with all warnings set
+#+begin_src bash
+gcc -Wall -Wextra -std=c2x -pedantic foo.c
+#+end_src
+
+** 3.1 Variables
+Variables hold values. Variable is a human readable name that refers to some data in memory.
+You can think of memory as big array of bytes (byte is an 8-bit binary number, holds value from 0 to 255 inclusive).
+Data is stored in this array. If a number is larger than a single byte, it is stored in multiple bytes. 
+Because memory is like an array, each byte of memory can be referred to by its index. 
+This index into memory is called an address, or a location or a pointer.
+
+*** 3.1.1 Variable Names
+Any characters in the range 0-9, A-Z, a-z and underscore for variable names.
+You can't start a variable with a digit 0-9.
+You can't start a variable name with two underscores.
+You can't start a variable name with an underscore followed by A-Z.
