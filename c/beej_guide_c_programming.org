@@ -91,3 +91,13 @@ Any characters in the range 0-9, A-Z, a-z and underscore for variable names.
 You can't start a variable with a digit 0-9.
 You can't start a variable name with two underscores.
 You can't start a variable name with an underscore followed by A-Z.
+*** 3.2.1 Variable Types
+|Type|Example|C Type|
+|--|--|--|
+|Integer| 3490| int|
+|Floating point| 3.14159| float|
+|Character| 'c' | char|
+|String| "Hello, World!"| char|
+
+Before you can use a variable, you have to declar that variable and tell C what type the variable holds.
+Once declared, the type of the variable cannot be changed later at runtime.
