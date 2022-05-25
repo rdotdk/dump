@@ -37,7 +37,7 @@ run the output file using
 output
 #+begin_src bash
 Hello, World!
-#end_src
+#+end_src
 
 ** 2.3 Compilation details
 Compilation is the process of taking c source code and turning into a program that your operating system can execute.
@@ -46,7 +46,7 @@ languages that aren't compiled are called interpreted languages.
 c compiler does the compilation.
 gcc is a compiler installed on many unix-like operating systems.
 
-** Building with gcc
+** 2.4 Building with gcc
 #+begin_src bash
 gcc -o hello hello.c
 #+end_src
