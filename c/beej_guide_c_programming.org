@@ -28,4 +28,8 @@ compile hello.c and output executable as hello
 gcc -o hello hello.c
 #+end_src
 
-
+run the output file using
+#+begin_src bash
+./hello
+#+end_src
+./ tells the shell to run from the current directory
