@@ -57,3 +57,13 @@ if the source is broken into multiple files you can compile by putting them all 
 #+begin_src bash
 gcc -o awesomegame ui.c characters.c npc.c items.c
 #+end_src
+** 2.7 C Versions
+|Version | Description|
+|--------|-------------|
+| K&R C  | 1978 Named after Brain Kernighan and Dennis Ritchie.|
+| C89, ANSI C, C90| 1989 American National Standards Institute (ANSI C) - C language specification|
+|C95| wide character support|
+|C99| //-style comments|
+|C11| unicode support and multi threading|
+|C17, C18| Bugfix update to C11. C17 is the official name, but it was delayed until 2018|
+|C2x| coming next. C21|
