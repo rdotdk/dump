@@ -1,7 +1,22 @@
 * Beej's Guide to C Programming
 ** 2.2 Hello World!
 #+begin_src C 
+/*Hello World Program*/ 
+
+// anything between /* and */ is a comment and will be ignored by the compiler
+// same goes for //
+
+// #include tells the compiler to pull the contents from another file into this file
+
+// anything that has # is something the preprocessor operates on before the compilation happens
+
+// common preprocessor directives - #include and #define
+
+// stdio.h is the header file. standard i/o. included here to access printf() function
+
 #include <stdio.h>
+
+// the definition of main function. Everything in between {} are part of this main function.
 int main(void)
 {
 printf("Hello, World!\n");
