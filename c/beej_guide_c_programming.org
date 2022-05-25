@@ -23,5 +23,7 @@ printf("Hello, World!\n");
 }
 #+end_src
 
+compile hello.c and output executable as hello
+gcc -o hello hello.c
 
 
